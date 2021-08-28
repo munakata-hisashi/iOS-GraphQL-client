@@ -1,3 +1,3 @@
-struct iOS_GraphQL_client_package {
-    var text = "Hello, World!"
+public struct iOS_GraphQL_client_package {
+    public var text = "Hello, World!"
 }

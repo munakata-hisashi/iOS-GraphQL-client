@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import iOS_GraphQL_client_package
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Hello, world")
             .padding()
     }
 }

@@ -14,6 +14,7 @@
 		631871AE26A5A5860052637D /* iOS_GraphQL_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631871AD26A5A5860052637D /* iOS_GraphQL_clientTests.swift */; };
 		631871B926A5A5860052637D /* iOS_GraphQL_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631871B826A5A5860052637D /* iOS_GraphQL_clientUITests.swift */; };
 		631871C826A5ADAC0052637D /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 631871C726A5ADAC0052637D /* Apollo */; };
+		63527E7A26DAADA200BF8B9F /* iOS-GraphQL-client-package in Frameworks */ = {isa = PBXBuildFile; productRef = 63527E7926DAADA200BF8B9F /* iOS-GraphQL-client-package */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63527E7A26DAADA200BF8B9F /* iOS-GraphQL-client-package in Frameworks */,
 				631871C826A5ADAC0052637D /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +83,7 @@
 				631871AC26A5A5860052637D /* iOS-GraphQL-clientTests */,
 				631871B726A5A5860052637D /* iOS-GraphQL-clientUITests */,
 				6318719926A5A5850052637D /* Products */,
+				6357D1C926DA9DB7004E96CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +135,13 @@
 			path = "iOS-GraphQL-clientUITests";
 			sourceTree = "<group>";
 		};
+		6357D1C926DA9DB7004E96CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,6 +160,7 @@
 			name = "iOS-GraphQL-client";
 			packageProductDependencies = (
 				631871C726A5ADAC0052637D /* Apollo */,
+				63527E7926DAADA200BF8B9F /* iOS-GraphQL-client-package */,
 			);
 			productName = "iOS-GraphQL-client";
 			productReference = 6318719826A5A5850052637D /* iOS-GraphQL-client.app */;
@@ -605,6 +616,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 631871C626A5ADAC0052637D /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
+		};
+		63527E7926DAADA200BF8B9F /* iOS-GraphQL-client-package */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "iOS-GraphQL-client-package";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
