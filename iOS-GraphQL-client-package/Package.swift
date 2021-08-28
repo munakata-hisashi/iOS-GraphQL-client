@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         // このパッケージが生成するライブラリを定義
         .library(
-            name: "iOS-GraphQL-client-package",
+            name: "iOS-GraphQL-client",
             targets: ["iOS-GraphQL-client-package"]),
     ],
     dependencies: [
